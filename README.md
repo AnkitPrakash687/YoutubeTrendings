@@ -29,4 +29,6 @@ Following are the four V's which make this a Big Data problem
 * VELOCITY: The data is from May 2017 to June 2018 and it was generated daily.
 * VERACITY: The Data is cleaned data.
 
+## Big Data Questions
 
+1. 
