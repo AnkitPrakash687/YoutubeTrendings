@@ -31,4 +31,7 @@ Following are the four V's which make this a Big Data problem
 
 ## Big Data Questions
 
-1. 
+1. For a given channel, find average number of likes - Vamshi Krishna Nuka.
+2.
+3.
+4.
