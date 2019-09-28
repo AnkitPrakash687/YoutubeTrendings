@@ -16,6 +16,9 @@ This dataset is a daily record of the top trending YouTube videos of four countr
 
 ## Data Source
 
+## Data Source Link
+
+https://www.kaggle.com/datasnaek/youtube-new
 
 ## Big Data Challenge
 
@@ -25,10 +28,5 @@ Following are the four V's which make this a Big Data problem
 * VARIETY: The dataset is Structured and is in the csv as well as json file.
 * VELOCITY: The data is from May 2017 to June 2018 and it was generated daily.
 * VERACITY: The Data is cleaned data.
-
-## Data Source Link
-
-https://www.kaggle.com/datasnaek/youtube-new
-
 
 
