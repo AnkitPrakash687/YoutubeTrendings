@@ -32,7 +32,7 @@ Following are the four V's which make this a Big Data problem
 ## Big Data Questions
 
 1. For each channel, I will find average number of likes - Vamshi Krishna Nuka.
-2. For each channel i will find average number of comments-Venkata Dasari
+2. For each channel i will find sum of  comments-Venkata Dasari
 3.
 4.
 
@@ -52,6 +52,20 @@ Following are the four V's which make this a Big Data problem
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
     * I will use pie chart to display my results.
-   1.venkata Dasari
-   * Mapper input: One line of data that mapper will read:            
-    
+           
+   #### 1. Venkata Dasari
+* Mapper input: One line of data that mapper will read:            
+     * n1WpP7iowLc	17.14.11	Eminem  -  Walk  On  Water  (Audio)  ft.  BeyoncÃ©	EminemVEVO	10	2017-11-10T17:00:03.000Z	Eminem|"Walk"|"On"|"Water"|"Aftermath/Shady/Interscope"|"Rap"	17158579	787425	43420	125882	https://i.ytimg.com/vi/n1WpP7iowLc/default.jpg	FALSE	FALSE	FALSE	description          
+* Mapper output/reducer input: example of an intermediate key, value pair output by your mapper:          
+     * EminemVEVO 125882
+     * iDubbbzTV 13030
+     * Rudy Mancuso 8181
+     * nigahiga 17518
+     * Ed Sheeran 85067
+* Reducer output:
+    *  Channel Name = Ed Sheeran sum of  comments = 445895
+* Language being used:
+    * The language that I am using for map reducing is "Python".
+* What kind of chart will you use to display your results? 
+    * I will use Bar chart to display my results.
+  
