@@ -31,10 +31,19 @@ Following are the four V's which make this a Big Data problem
 
 ## Big Data Questions
 
-1. For a given channel, find average number of likes - Vamshi Krishna Nuka.
+1. For each channel, I will find average number of likes - Vamshi Krishna Nuka.
 2.
 3.
 4.
 
 ## Big Data Solutions
-1.
+#### 1. Vamshi Krishna Nuka
+* Mapper input: One line of data that mapper will read:            
+      - n1WpP7iowLc	17.14.11	Eminem  -  Walk  On  Water  (Audio)  ft.  BeyoncÃ©	EminemVEVO	10	2017-11-10T17:00:03.000Z	Eminem|"Walk"|"On"|"Water"|"Aftermath/Shady/Interscope"|"Rap"	17158579	787425	43420	125882	https://i.ytimg.com/vi/n1WpP7iowLc/default.jpg	FALSE	FALSE	FALSE	description          
+      - Mapper output/reducer input: example of an intermediate key, value pair output by your mapper:          
+     * EminemVEVO 787425
+     * iDubbbzTV 127794
+     * Rudy Mancuso 146035
+     * nigahiga 132239
+     * Ed Sheeran 1634130
+      
