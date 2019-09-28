@@ -32,7 +32,7 @@ Following are the four V's which make this a Big Data problem
 ## Big Data Questions
 
 1. For each channel, I will find average number of likes - Vamshi Krishna Nuka.
-2.
+2. For each channel i will find average number of comments-Venkata Dasari
 3.
 4.
 
@@ -52,4 +52,6 @@ Following are the four V's which make this a Big Data problem
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
     * I will use pie chart to display my results.
-      
+   1.venkata Dasari
+   * Mapper input: One line of data that mapper will read:            
+    
