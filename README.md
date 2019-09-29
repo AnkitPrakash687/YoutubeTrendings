@@ -77,10 +77,10 @@ Following are the four V's which make this a Big Data problem
      * Tyler Oakley 28474353
      * 2CELIOS 205869
      * 12News 177970 
-     * nigahiga 17518
-     * Ed Sheeran 85067
+     * 3D Printing 312437
+     * Adidas football 14964217
 * Reducer output:
-    *  Channel Name = Ed Sheeran sum of  comments = 445895
+    *  Channel Name = Tyler Oakley sum of views = 44134846
 * Language being used:
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
