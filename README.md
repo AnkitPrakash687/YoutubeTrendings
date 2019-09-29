@@ -53,7 +53,7 @@ Following are the four V's which make this a Big Data problem
 * What kind of chart will you use to display your results? 
     * I will use pie chart to display my results.
            
-   #### 2. Venkata Dasari
+#### 2. Venkata Dasari
 * Mapper input: One line of data that mapper will read:            
      * n1WpP7iowLc	17.14.11	Eminem  -  Walk  On  Water  (Audio)  ft.  BeyoncÃ©	EminemVEVO	10	2017-11-10T17:00:03.000Z	Eminem|"Walk"|"On"|"Water"|"Aftermath/Shady/Interscope"|"Rap"	17158579	787425	43420	125882	https://i.ytimg.com/vi/n1WpP7iowLc/default.jpg	FALSE	FALSE	FALSE	description          
 * Mapper output/reducer input: example of an intermediate key, value pair output by your mapper:          
@@ -69,7 +69,7 @@ Following are the four V's which make this a Big Data problem
 * What kind of chart will you use to display your results? 
     * I will use Bar chart to display my results.
     
-    #### 3. Mushafiq Fakki
+ #### 3. Mushafiq Fakki
 * Mapper input: One line of data that mapper will read:            
      * 5E4ZBSInqUU	17.14.11	Marshmello - Blocks (Official Music Video)	marshmello	10	2017-11-13T17:00:00.000Z	marshmello|"blocks"|"marshmello blocks"|"blocks music video"|"marshmello music video"|"roblox bully story"|"marshmello alone"|"roblox"|"cuphead"|"marshmello nightcore"|"marshmello musically"|"music for kids"|"happy music"|"videos that make you happy"|"sad songs"|"childrens music"|"joytime"|"marshmello joytime"|"frat bro"|"band"|"high school"|"crush"|"mellogang"	687582	114188	1333	8371	https://i.ytimg.com/vi/5E4ZBSInqUU/default.jpg	FALSE	FALSE	FALSE	
 	
@@ -87,3 +87,26 @@ Following are the four V's which make this a Big Data problem
 * What kind of chart will you use to display your results? 
     * I will use Bar chart to display my results.
   
+### 4. Ankit Prakash
+Mapper input: One line of data that mapper will read:
+1sqyuXCwcBA 17.23.12 I AUDITIONED FOR THE VOICE! Colleen Vlogs 23 2017-12-22T05:04:32.000Z AUDITION|"the voice"|"colleen ballinger" 250111 12333 581 727 https://i.ytimg.com/vi/1sqyuXCwcBA/default.jpg FALSE FALSE FALSE description
+
+* Mapper output/reducer input: example of an intermediate key, value pair output by your mapper:
+
+	* 1sqyuXCwcBA 581
+	* _0Wz8e4W-oE 1135
+	* 1SnWTW6YXbE 2184
+	* 1QmPCVW6jOs 2705
+	* _0Wz8e4W-oE 805
+
+* Reducer output:
+
+	* Video id = _0Wz8e4W-oE Highest number of dislike in a day = 1193
+
+* Language being used:
+
+	* The language that I am using for map reducing is "Python".
+
+* What kind of chart will you use to display your results?
+
+	* I will use Bar chart to display my results.
