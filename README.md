@@ -34,7 +34,7 @@ Following are the four V's which make this a Big Data problem
 1. For each channel, find average number of likes - Vamshi Krishna Nuka.
 2. For each channel, find sum of  comments-Venkata Dasari
 3. For each channel, find total views-Mushafiq Fakki
-4.
+4. For each videos, find the highest number of dislikes in a day - Ankit Prakash
 
 ## Big Data Solutions
 #### 1. Vamshi Krishna Nuka
@@ -77,12 +77,31 @@ Following are the four V's which make this a Big Data problem
      * Tyler Oakley 28474353
      * 2CELIOS 205869
      * 12News 177970 
-     * 3D Printing 312437
-     * Adidas football 14964217
+     * nigahiga 17518
+     * Ed Sheeran 85067
 * Reducer output:
-    *  Channel Name = Tyler Oakley sum of views = 44134846
+    *  Channel Name = Ed Sheeran sum of  comments = 445895
 * Language being used:
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
     * I will use Bar chart to display my results.
-  
+   
+      #### 3. Ankit Prakash
+* Mapper input: One line of data that mapper will read:            
+  1sqyuXCwcBA	17.23.12	I AUDITIONED FOR THE VOICE!	Colleen Vlogs	23	2017-12-22T05:04:32.000Z	AUDITION|"the voice"|"colleen ballinger"	250111	12333	581	727	https://i.ytimg.com/vi/1sqyuXCwcBA/default.jpg	FALSE	FALSE	FALSE	description
+
+* Mapper output/reducer input: example of an intermediate key, value pair output by your mapper: 
+
+     * 1sqyuXCwcBA 581
+     * _0Wz8e4W-oE 1135
+     * 1SnWTW6YXbE 2184 
+     * 1QmPCVW6jOs 2705
+     * _0Wz8e4W-oE 805
+     
+* Reducer output:
+    * Video id =  _0Wz8e4W-oE Highest number of dislike in a day = 1193
+* Language being used:
+    * The language that I am using for map reducing is "Python".
+    
+* What kind of chart will you use to display your results? 
+    * I will use Bar chart to display my results.
