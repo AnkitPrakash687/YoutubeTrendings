@@ -31,9 +31,9 @@ Following are the four V's which make this a Big Data problem
 
 ## Big Data Questions
 
-1. For each channel, I will find average number of likes - Vamshi Krishna Nuka.
-2. For each channel i will find sum of  comments-Venkata Dasari
-3.
+1. For each channel, find average number of likes - Vamshi Krishna Nuka.
+2. For each channel, find sum of  comments-Venkata Dasari
+3. For each channel, find total views-Mushafiq Fakki
 4.
 
 ## Big Data Solutions
@@ -60,6 +60,23 @@ Following are the four V's which make this a Big Data problem
      * EminemVEVO 125882
      * iDubbbzTV 13030
      * Rudy Mancuso 8181
+     * nigahiga 17518
+     * Ed Sheeran 85067
+* Reducer output:
+    *  Channel Name = Ed Sheeran sum of  comments = 445895
+* Language being used:
+    * The language that I am using for map reducing is "Python".
+* What kind of chart will you use to display your results? 
+    * I will use Bar chart to display my results.
+    
+    #### 3. Mushafiq Fakki
+* Mapper input: One line of data that mapper will read:            
+     * 5E4ZBSInqUU	17.14.11	Marshmello - Blocks (Official Music Video)	marshmello	10	2017-11-13T17:00:00.000Z	marshmello|"blocks"|"marshmello blocks"|"blocks music video"|"marshmello music video"|"roblox bully story"|"marshmello alone"|"roblox"|"cuphead"|"marshmello nightcore"|"marshmello musically"|"music for kids"|"happy music"|"videos that make you happy"|"sad songs"|"childrens music"|"joytime"|"marshmello joytime"|"frat bro"|"band"|"high school"|"crush"|"mellogang"	687582	114188	1333	8371	
+        
+* Mapper output/reducer input: example of an intermediate key, value pair output by your mapper:          
+     * Tyler Oakley 28474353
+     * 2CELIOS 205869
+     * 12News 177970 
      * nigahiga 17518
      * Ed Sheeran 85067
 * Reducer output:
