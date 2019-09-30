@@ -31,10 +31,10 @@ Following are the four V's which make this a Big Data problem
 
 ## Big Data Questions
 
-1. For each channel, find average number of likes - Vamshi Krishna Nuka.
-2. For each channel, find sum of  comments-Venkata Dasari
-3. For each channel, find total views-Mushafiq Fakki
-4.
+1. For each channel, I'II find average number of likes - Vamshi Krishna Nuka.
+2. For each channel, I'II find sum of  comments-Venkata Dasari
+3. For each channel, I'II find total views-Mushafiq Fakki
+4. For each video ID, I'II find highest number of dislikes in a day - Ankit Prakash
 
 ## Big Data Solutions
 #### 1. Vamshi Krishna Nuka
