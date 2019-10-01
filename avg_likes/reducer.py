@@ -1,27 +1,28 @@
-s = open("s.txt","r")
+s = open("output.txt","r")
 r = open("r.txt", "w")
+lines = s.readlines()
+lines.sort() 
+max = 0
+id = ''
+dict = {} 
+for line in lines:
+    data = line.strip().split(',')
+    channel_title = data[0] 
+    try:
+        likes = float(data[1])
+        if channel_title in dict.keys():
+            dict[channel_title] = dict[channel_title] + likes
+        else:
+            dict[channel_title] = 1
+    except ValueError:
+        continue
+   
 
-thisKey = ""
-thisValue = 0.0
+for key,value in dict.items():
+    likessum = sum(value)
+    avglikes = likessum/len(value)
 
-for line in s:
-  data = line.strip().split('\t')
-  store, amount = data
-
-  if store != thisKey:
-    if thisKey:
-      # output the last key value pair result
-      r.write(thisKey + '\t' + str(thisValue)+'\n')
-
-    # start over when changing keys
-    thisKey = store 
-    thisValue = 0.0
-  
-  # apply the aggregation function
-  thisValue += float(amount)
-
-# output the final entry when done
-r.write(thisKey + '\t' + str(thisValue)+'\n')
-
+r.write("channel_title: "+id+","+"Average number of likes: "+str(avglikes) +"\n")
+print("channel_title: "+id+","+"Average number of likes: "+str(avglikes) +"\n")
 s.close()
 r.close()
