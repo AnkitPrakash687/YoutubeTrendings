@@ -1,0 +1,50 @@
+channel_title,comment_count
+CaseyNeistat,15954.00
+LastWeekTonight,12703.00
+Rudy Mancuso,8181.00
+Good Mythical Morning,2146.00
+nigahiga,17518.00
+iJustine,1434.00
+Saturday Night Live,1970.00
+CrazyRussianHacker,3432.00
+20th Century Fox,340.00
+Vox,2368.00
+NFL,177.00
+amc,1279.00
+marshmello,8371.00
+NowThis World,3981.00
+The king of DIY,2120.00
+BostonDynamics,1230.00
+Cracked,1256.00
+TED-Ed,385.00
+PeterSripol,2211.00
+SciShow,1214.00
+Life Noggin,2800.00
+Tested,208.00
+Tom Scott,1014.00
+Refinery29,673.00
+Gus Johnson,234.00
+HellthyJunkFood,1392.00
+Numberphile,437.00
+JerryRigEverything,1346.00
+Cleveland Cavaliers on cleveland.com,83.00
+FaeryInLoveInc,246.00
+hp_overload,486.00
+Amazon.co.uk,0.00
+EminemVEVO,125882.00
+officer401,626.00
+Emirates,236.00
+Nobrand,532.00
+Screen Junkies,2111.00
+Hunter Hayes,76.00
+Niki and Gabi,3412.00
+Nickelback,565.00
+U2VEVO,455.00
+BBC News,413.00
+Ben Rohrbach,8.00
+MatthewSantoro,7484.00
+Shawn Johnson East,895.00
+dope2111,2160.00
+People are Awesome,160.00
+NBA Highlights · YouTube,1447.00
+D3sports.com,19.00
