@@ -1,12 +1,12 @@
-i = open("usdata.txt", "r")
-o = open("output.txt", "w")
+v_input = open("./data/usvideos_v.txt", "r")
+v_output = open("output.txt", "w")
 
-for line in i:
-    data = line.strip().split(',')   
-    if (len(data) == 16):
-        video_id,trending_date,title,channel_title,category_id,publish_time,tags,views,likes,dislikes,comment_count,thumbnail_link,comments_disabled,ratings_disabled,video_error_or_removed,dummy = data
-        o.write(channel_title + "\t" + likes+ "\n")
+for line in v_input:
+    data = line.strip().split('/t')   
+    if (len(data) == 2):
+        channel_title,likes = data
+        v_output.write(channel_title + "\t" + likes+ "\n")
         print(channel_title + "\t" + likes+ "\n")
 
-i.close()
-o.close()
+v_input.close()
+v_output.close()
