@@ -15,4 +15,3 @@ for line in input_mapper:
 # Closing all files
 input_mapper.close()
 output_mapper.close()
- 

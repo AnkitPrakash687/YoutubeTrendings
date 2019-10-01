@@ -19,10 +19,10 @@ for line in lines:
     
 # Loop for readng dictionary 
 for key,value in dict.items():
-    # writing channel_title and total number of suicide in output file
-    output_reducer.write("channel_title: "+key+","+"Total number of suicides: "+str(value) +"\n")
-    # Writing channel_title and total number of suicides to console
-    print("channel_title: "+key+","+"Total number of suicides: "+str(value) +"\n")
+    # writing channel_title and total number of views in output file
+    output_reducer.write("channel_title: "+key+","+"Total number of views: "+str(value) +"\n")
+    # Writing channel_title and total number of views to console
+    print("channel_title: "+key+","+"Total number of views: "+str(value) +"\n")
 # Closing all files
 input_reducer.close()
 output_reducer.close()
