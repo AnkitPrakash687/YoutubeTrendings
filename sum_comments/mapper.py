@@ -20,6 +20,7 @@ for line in input_mapper:
              print(title_clean)
         # Writing video_id and dislikes to output file
         output_mapper.write(channel_title+","+comment_count+"\n")
+        print(channel_title+","+comment_count+"\n")
         # printing video_id and dislikes to console
         #print(video_id+","+title_clean+","+dislikes+"\n")
 # Closing all files
