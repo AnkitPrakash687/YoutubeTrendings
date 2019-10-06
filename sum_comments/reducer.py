@@ -11,6 +11,7 @@ for line in lines:
    if thisKey:
      # output the last key value pair result
      reducer_output.write(thisKey + '\t' + str(thisValue)+'\n')
+     print(thisKey + '\t' + str(thisValue)+'\n')
 
    # start over when changing keys
    thisKey = channel_title
