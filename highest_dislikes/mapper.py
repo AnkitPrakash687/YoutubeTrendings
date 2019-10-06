@@ -16,9 +16,9 @@ for line in input_mapper:
         title_clean = x.group()
         print(title_clean)
         # Writing video_id and dislikes to output file
-        output_mapper.write(video_id+","+title_clean+","+dislikes+"\n")
+        output_mapper.write(video_id+","+title_clean+","+dislikes+","+trending_date+"\n")
         # printing video_id and dislikes to console
-        print(video_id+","+title_clean+","+dislikes+"\n")
+        #print(video_id+","+title_clean+","+dislikes+"\n")
 # Closing all files
 input_mapper.close()
 output_mapper.close()

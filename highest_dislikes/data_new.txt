@@ -1,4 +1,3 @@
-video_id,trending_date,title,channel_title,category_id,publish_time,views,likes,dislikes,comment_count,thumbnail_link,comments_disabled,ratings_disabled,video_error_or_removed
 __4c1JCHvaQ,17.08.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,1458368,109700,1903,13669,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
 __4c1JCHvaQ,17.09.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,2537980,149012,2930,18632,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
 __4c1JCHvaQ,17.10.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,3090438,167927,3287,20818,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
