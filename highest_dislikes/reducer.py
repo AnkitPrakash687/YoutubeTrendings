@@ -1,34 +1,32 @@
-input_reducer = open("output_mapper.txt","r") # Opening data file(output_mapper) in read only mode
-output_reducer = open("output_reducer.txt", "w")  # Opening output_reducer file in write mode (It will create file if file doesnot exist)
-lines = input_reducer.readlines() # Reading each line from data and placing it in array
-lines.sort() # sorting the array
-max = 0
-id = ''
-dict = {} # creating an empty dictionary
-# reading each line from array
-for line in lines:
-    # Seperating data by (,) and sending it to data array
-    data = line.strip().split(',')
-    video_id = data[0] # Assigning data to variable
-    try:
-        dislikes = float(data[1])
-        if video_id in dict.keys():
-            dict[video_id] = dict[video_id] + dislikes
-        else:
-            dict[video_id] = 1
-    except ValueError:
-        continue
-   
-# Loop for readng dictionary
-for key,value in dict.items():
-    if(dict[key] >= max):
-        max = dict[key]
-        id = key
+s = open("output_mapper.txt","r")
+r = open("output_reducer.txt", "w")
 
-# writing video_id and total number of dislikes in output file
-output_reducer.write("video_id: "+id+","+"Total number of dislikes: "+str(max) +"\n")
-# Writing video_id and total number of  to console
-print("video_id: "+id+","+"Total number of dislikes: "+str(max) +"\n")
-# Closing all files
-input_reducer.close()
-output_reducer.close()
+thisKey = ""
+thisDislikes = 0
+
+for line in s:
+  data = line.strip().split(',')
+  video_id, title, dislikes = data
+
+  if video_id != thisKey:
+    if thisKey:
+      # output the last key value pair result
+      r.write(thisKey + '\t' + title + '\t' + thisDislikes +'\n')
+      thisDislikes = 0
+      
+
+    # start over when changing keys
+    thisKey = video_id 
+    
+  
+  # find and store max for the key
+  if dislikes > thisDislikes:
+      thisDislikes = dislikes
+    
+ 
+
+# output the final entry when done
+r.write(thisKey + '\t' + title + '\t' + thisDislikes +'\n')
+
+s.close()
+r.close()

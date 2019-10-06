@@ -1,0 +1,22 @@
+video_id,trending_date,title,channel_title,category_id,publish_time,views,likes,dislikes,comment_count,thumbnail_link,comments_disabled,ratings_disabled,video_error_or_removed
+__4c1JCHvaQ,17.08.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,1458368,109700,1903,13669,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
+__4c1JCHvaQ,17.09.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,2537980,149012,2930,18632,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
+__4c1JCHvaQ,17.10.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,3090438,167927,3287,20818,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
+__4c1JCHvaQ,17.11.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,3437761,179799,3494,20103,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
+__4c1JCHvaQ,17.12.12,Logic Solves a Rubik's Cube While Eating Spicy Wings | Hot Ones,First We Feast,26,2017-12-07T16:03:12.000Z,3645622,188490,3598,20594,https://i.ytimg.com/vi/__4c1JCHvaQ/default.jpg,FALSE,FALSE,FALSE
+_0uV-jMbHQU,18.23.01,5 Things You Missed at the 2018 SAG Awards | E! News,E! News,24,2018-01-22T13:29:58.000Z,5604,34,56,15,https://i.ytimg.com/vi/_0uV-jMbHQU/default.jpg,FALSE,FALSE,FALSE
+_0uV-jMbHQU,18.24.01,5 Things You Missed at the 2018 SAG Awards | E! News,E! News,24,2018-01-22T13:29:58.000Z,9086,45,91,23,https://i.ytimg.com/vi/_0uV-jMbHQU/default.jpg,FALSE,FALSE,FALSE
+_0uV-jMbHQU,18.25.01,5 Things You Missed at the 2018 SAG Awards | E! News,E! News,24,2018-01-22T13:29:58.000Z,9382,46,92,23,https://i.ytimg.com/vi/_0uV-jMbHQU/default.jpg,FALSE,FALSE,FALSE
+_0uV-jMbHQU,18.26.01,5 Things You Missed at the 2018 SAG Awards | E! News,E! News,24,2018-01-22T13:29:58.000Z,9529,46,92,26,https://i.ytimg.com/vi/_0uV-jMbHQU/default.jpg,FALSE,FALSE,FALSE
+_0uV-jMbHQU,18.27.01,5 Things You Missed at the 2018 SAG Awards | E! News,E! News,24,2018-01-22T13:29:58.000Z,9568,46,92,26,https://i.ytimg.com/vi/_0uV-jMbHQU/default.jpg,FALSE,FALSE,FALSE
+_0uV-jMbHQU,18.28.01,5 Things You Missed at the 2018 SAG Awards | E! News,E! News,24,2018-01-22T13:29:58.000Z,9595,46,92,26,https://i.ytimg.com/vi/_0uV-jMbHQU/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.17.02,Descendants 3 Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,87832,8454,125,2190,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.18.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,910977,23182,2191,5244,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.19.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,1449593,29741,3630,7491,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.20.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,1727956,33147,4177,8505,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.21.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,1922167,35569,4330,8846,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.22.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,2059500,36981,4423,9058,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.23.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,2173974,37984,4490,9309,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.24.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,2296701,39087,4556,9499,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.25.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,2427158,40185,4622,9655,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
+_0ovuLsnU1A,18.26.02,Descendants 3 Official Teaser ????,Disney Descendants,24,2018-02-17T01:53:02.000Z,2507969,40658,4659,9763,https://i.ytimg.com/vi/_0ovuLsnU1A/default.jpg,FALSE,FALSE,FALSE
