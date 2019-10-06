@@ -1,6 +1,6 @@
 
 import re
-input_mapper = open("./data_new.txt","r") # Opening data file in read-only mode
+input_mapper = open("./US_data.txt","r") # Opening data file in read-only mode
 output_mapper = open("output_mapper.txt","w") # Opening output_mapper file in write mode (It will create file if file doesnot exist)
 regex = "[a-zA-Z0-9\s|]+"
 
@@ -13,8 +13,11 @@ for line in input_mapper:
         # Assigning data to different variables
         video_id,trending_date,title,channel_title,category_id,publish_time,views,likes,dislikes,comment_count,thumbnail_link,comments_disabled,ratings_disabled,video_error_or_removed = data
         x = re.search(r"[a-zA-Z0-9\s|]+", title)
-        title_clean = x.group()
-        print(title_clean)
+        if x is None:
+            title_clean = 'unknown character'
+        else:
+             title_clean = x.group()
+             print(title_clean)
         # Writing video_id and dislikes to output file
         output_mapper.write(video_id+","+title_clean+","+dislikes+","+trending_date+"\n")
         # printing video_id and dislikes to console
