@@ -121,5 +121,6 @@ Mapper input: One line of data that mapper will read:
 * What kind of chart will you use to display your results?
 
 	* I will use Bar chart to display my results.
-![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_dislikes.png)
-![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_dislikes.png)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/dislike_mapper_output.png)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/dislikes_reducer_output.png)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/chart_dislikes.png)
