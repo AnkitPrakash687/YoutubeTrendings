@@ -3,7 +3,9 @@ r = open("reducer_output.txt", "w")
 
 thisKey = ""
 thisLikes = 0
-
+likes_sum = 0
+likesCount = 0
+likesAverage = 0.0
 for line in s:
   data = line.strip().split(',')
   channel_title, likes = data
@@ -11,8 +13,8 @@ for line in s:
   if channel_title != thisKey:
     if thisKey:
       # output the last key value pair result
-      print('The channel_title "'  + channel_title + '" has average likes of ' + thisLikes +'\n')
-      r.write(thisKey + '\t' + channel_title + '\t' + thisLikes +'\n')
+      print('The channel_title "'  + channel_title + '" has minimum likes of ' + thisLikes +'\n')
+      r.write(thisKey + '\t' + thisLikes +'\n')
       thisLikes = 0
       
 
@@ -21,12 +23,12 @@ for line in s:
     
   
   # find and store max for the key
-  if likes > thisLikes:
+    if likes > thisLikes:
       thisLikes = likes
  
 # output the final entry when done
-print('The channel title "'  + channel_title + '" has average likes of ' + thisLikes +'\n')
-r.write(thisKey + '\t' + channel_title + '\t' + thisLikes +'\n')
+print('The channel title "'  + channel_title + '" has minimum likes of ' + thisLikes +'\n')
+r.write(thisKey + '\t' + thisLikes +'\n')
 
 s.close()
 r.close()

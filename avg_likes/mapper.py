@@ -12,9 +12,9 @@ for line in v_input:
           channel_p = 'unknown channel_title'
         else:
           channel_p = x.group()
-          print(channel_p)        
+        #   print(channel_p)        
         v_output.write(channel_title +","+likes+"\n")
-        # print(channel_title + "," + likes+ "\n")
+        print(channel_title + "," + likes+ "\n")
 
 v_input.close()
 v_output.close()
