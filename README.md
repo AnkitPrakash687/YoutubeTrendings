@@ -51,7 +51,12 @@ Following are the four V's which make this a Big Data problem
 * Language being used:
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
-    * I will use pie chart to display my results.
+    * I will use bar graph to display my results.
+
+
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_avglikes.png)       
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_avglikes.png)             
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/graph_avglikes.PNG)
            
 #### 2. Venkata Dasari
 * Mapper input: One line of data that mapper will read:            
@@ -68,6 +73,8 @@ Following are the four V's which make this a Big Data problem
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
     * I will use Bar chart to display my results.
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_comments.png)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_comments.png)
     
  #### 3. Mushafiq Fakki
 * Mapper input: One line of data that mapper will read:            
@@ -86,6 +93,10 @@ Following are the four V's which make this a Big Data problem
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
     * I will use Bar chart to display my results.
+   
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_views.PNG)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_views.PNG)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/Views_Graph.PNG)
   
 ### 4. Ankit Prakash
 Mapper input: One line of data that mapper will read:
@@ -110,3 +121,5 @@ Mapper input: One line of data that mapper will read:
 * What kind of chart will you use to display your results?
 
 	* I will use Bar chart to display my results.
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_dislikes.png)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_dislikes.png)
