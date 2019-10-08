@@ -1,35 +1,32 @@
-s = open("output_new.txt","r")
-r = open("r.txt", "w")
+s = open("output.txt","r")
+r = open("reducer_output.txt", "w")
 
 thisKey = ""
-thisValue = 0
-sum = 0
+thisLikes = 0
 
 for line in s:
   data = line.strip().split(',')
-  channel_id, likes = data
+  channel_title, likes = data
 
-  if channel_id != thisKey:
+  if channel_title != thisKey:
     if thisKey:
       # output the last key value pair result
-      print('The channel "'  + channel_id + '" has average likes of ' + thisValue +'\n')
-      r.write(thisKey + '\t' + channel_id + '\t' + thisValue +'\n')
-      thisValue = 0
-      # r.write(thisKey + '\t' + str(thisValue)+'\n')
+      print('The channel_title "'  + channel_title + '" has average likes of ' + thisLikes +'\n')
+      r.write(thisKey + '\t' + channel_title + '\t' + thisLikes +'\n')
+      thisLikes = 0
+      
 
     # start over when changing keys
-    thisKey = channel_id 
-    # thisValue = 0.0
+    thisKey = channel_title 
+    
   
-  # apply the aggregation function
-    thisValue += float(likes)
-
-
+  # find and store max for the key
+  if likes > thisLikes:
+      thisLikes = likes
+ 
 # output the final entry when done
-print('The channel "'  + channel_id + '" has average likes of ' + thisValue +'\n')
-r.write(thisKey + '\t' + channel_id + '\t' + thisValue +'\n')
-
-# r.write(thisKey + '\t' + str(thisValue)+'\n')
+print('The channel title "'  + channel_title + '" has average likes of ' + thisLikes +'\n')
+r.write(thisKey + '\t' + channel_title + '\t' + thisLikes +'\n')
 
 s.close()
 r.close()
