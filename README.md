@@ -75,6 +75,7 @@ Following are the four V's which make this a Big Data problem
     * I will use Bar chart to display my results.
 ![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_comments.png)
 ![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_comments.png)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/comments_graph.png)
     
  #### 3. Mushafiq Fakki
 * Mapper input: One line of data that mapper will read:            
