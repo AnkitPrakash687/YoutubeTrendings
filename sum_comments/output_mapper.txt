@@ -1,21 +1,72 @@
-First We Feast,13669
-First We Feast,18632
-First We Feast,20818
-First We Feast,20103
-First We Feast,20594
-E! News,15
-E! News,23
-E! News,23
-E! News,26
-E! News,26
-E! News,26
-Disney Descendants,2190
-Disney Descendants,5244
-Disney Descendants,7491
-Disney Descendants,8505
-Disney Descendants,8846
-Disney Descendants,9058
-Disney Descendants,9309
-Disney Descendants,9499
-Disney Descendants,9655
-Disney Descendants,9763
+channel_title,comment_count
+CaseyNeistat,15954
+LastWeekTonight,12703
+Good Mythical Morning,2146
+nigahiga,17518
+iJustine,1434
+Saturday Night Live,1970
+CrazyRussianHacker,3432
+20th Century Fox,340
+Vox,2368
+NFL,177
+amc,1279
+marshmello,8371
+NowThis World,3981
+The king of DIY,2120
+BostonDynamics,1230
+Cracked,1256
+TED-Ed,385
+PeterSripol,2211
+SciShow,1214
+Life Noggin,2800
+Tested,208
+Tom Scott,1014
+Gus Johnson,234
+HellthyJunkFood,1392
+Numberphile,437
+JerryRigEverything,1346
+Cleveland Cavaliers on cleveland.com,83
+FaeryInLoveInc,246
+Amazon.co.uk,0
+EminemVEVO,125882
+officer401,626
+Emirates,236
+Nobrand,532
+Screen Junkies,2111
+Hunter Hayes,76
+Niki and Gabi,3412
+Nickelback,565
+U2VEVO,455
+BBC News,413
+Ben Rohrbach,8
+MatthewSantoro,7484
+dope2111,2160
+People are Awesome,160
+NBA Highlights · YouTube,1447
+D3sports.com,19
+Simply Nailogical,11800
+CBS Sunday Morning,15
+Grace Helbig,456
+The Graham Norton Show,605
+Kevin Durant,525
+JimBrowski 96HourNews,64
+ViralHog,22
+Jeremy Jahns,1062
+Jonathan Morrison,1016
+YouTube Spotlight,4998
+GEazyMusicVEVO,6410
+U.S. Navy,347
+IGN,970
+Safiya Nygaard,6541
+Lele Pons,6408
+INSIDER,33
+John Lewis,9479
+Ed Sheeran,85067
+Sara Dietschy,255
+MeganBatoon,243
+fosterthepeopleVEVO,1745
+Watch What Happens Live with Andy Cohen,2325
+Mayo Clinic,260
+Jason Derulo,1691
+The Late Late Show with James Corden,1084
+cocheusadoooo,178

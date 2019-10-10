@@ -1,6 +1,6 @@
 
 import re
-input_mapper = open("data_new.txt","r") # Opening data file in read-only mode
+input_mapper = open("./US_data.txt","r") # Opening data file in read-only mode
 output_mapper = open("output_mapper.txt","w") # Opening output_mapper file in write mode (It will create file if file doesnot exist)
 regex = "[a-zA-Z0-9\s|]+"
 

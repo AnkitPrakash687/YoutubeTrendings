@@ -19,3 +19,5 @@ for line in lines:
  # apply the aggregation function
  thisValue += float(comment_count)
 
+mapperoutput.close()
+reducer_output.close()

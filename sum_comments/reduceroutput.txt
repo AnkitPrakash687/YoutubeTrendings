@@ -1,2 +1,64 @@
-Disney Descendants	79560.0
-E! News	139.0
+20th Century Fox	340.0
+Amazon.co.uk	0.0
+BBC News	413.0
+Ben Rohrbach	8.0
+BostonDynamics	1230.0
+CBS Sunday Morning	15.0
+CaseyNeistat	15954.0
+Cleveland Cavaliers on cleveland.com	83.0
+Cracked	1256.0
+CrazyRussianHacker	3432.0
+D3sports.com	19.0
+Ed Sheeran	85067.0
+EminemVEVO	125882.0
+Emirates	236.0
+FaeryInLoveInc	246.0
+GEazyMusicVEVO	6410.0
+Good Mythical Morning	2146.0
+Grace Helbig	456.0
+Gus Johnson	234.0
+HellthyJunkFood	1392.0
+Hunter Hayes	76.0
+IGN	970.0
+INSIDER	33.0
+Jason Derulo	1691.0
+Jeremy Jahns	1062.0
+JerryRigEverything	1346.0
+JimBrowski 96HourNews	64.0
+John Lewis	9479.0
+Jonathan Morrison	1016.0
+Kevin Durant	525.0
+LastWeekTonight	12703.0
+Lele Pons	6408.0
+Life Noggin	2800.0
+MatthewSantoro	7484.0
+Mayo Clinic	260.0
+MeganBatoon	243.0
+NBA Highlights · YouTube	1447.0
+NFL	177.0
+Nickelback	565.0
+Niki and Gabi	3412.0
+Nobrand	532.0
+NowThis World	3981.0
+Numberphile	437.0
+People are Awesome	160.0
+PeterSripol	2211.0
+Safiya Nygaard	6541.0
+Sara Dietschy	255.0
+Saturday Night Live	1970.0
+SciShow	1214.0
+Screen Junkies	2111.0
+Simply Nailogical	11800.0
+TED-Ed	385.0
+Tested	208.0
+The Graham Norton Show	605.0
+The Late Late Show with James Corden	1084.0
+The king of DIY	2120.0
+Tom Scott	1014.0
+U.S. Navy	347.0
+U2VEVO	455.0
+ViralHog	22.0
+Vox	2368.0
+Watch What Happens Live with Andy Cohen	2325.0
+YouTube Spotlight	4998.0
+amc	1279.0
