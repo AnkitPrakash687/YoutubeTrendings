@@ -94,9 +94,9 @@ Following are the four V's which make this a Big Data problem
     * The language that I am using for map reducing is "Python".
 * What kind of chart will you use to display your results? 
     * I will use Bar chart to display my results.
-   
+
 ![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/mapper_views.PNG)
-![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_views.PNG)
+![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/reducer_view.PNG)
 ![](https://github.com/AnkitPrakash687/YoutubeTrendings/blob/master/images/Views_Graph.PNG)
   
 ### 4. Ankit Prakash
